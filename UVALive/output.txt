@@ -1,0 +1,16 @@
+target1 
+011100
+target2 
+100011
+after target1 
+100101
+a 5 b 1
+5
+target1 
+0000111
+target2 
+1111000
+after target1 
+1111000
+a 18 b 2147483647
+18
