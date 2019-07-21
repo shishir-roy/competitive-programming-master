@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 11pt;
+	line-height: 1.7em;
+}
+body {
+	background: #f0f0f0;
+}
+
+
+#header {
+	width: 960px;
+	height: 180px;
+	background: transparent url(../images/banner.png)no-repeat;
+	margin: 0 auto 0 auto;
+}
+
+#mainContent {
+	width: 960px;
+	margin: 0 auto 0 auto;
+	height: auto;
+	overflow-y: auto !important;
+}
+
+#mainContent div#leftPanel {
+	float: left;
+	width: 280px;
+	height: 500px;
+	padding: 10px;
+	overflow-y: auto !important;
+}
+
+#mainContent div#rightPanel {
+	float: right;
+	width: 940px;
+	padding: 10px;
+	height: auto;
+	overflow-y: auto !important;
+}
+
+#mainContent div#rightPanel h1.articleHeading {
+	font-weight: bold;
+	font-size: 15pt;
+	padding: 10px 10px 10px 0;
+}
+
+div.articleContent ul.square {
+	list-style:square;
+	margin: 20px 0 20px 40px;
+}
+
+div.articleContent p {
+	margin-top: 20px;
+	text-indent: 20px;
+}
+
+div.articleContent table.mathGrid{
+	margin: 20px auto 20px auto; 
+	width: 100px;
+	text-align: right;
+}
+
+
+div.articleContent {
+	text-align: justify;
+}
+
+div.highlight {
+	margin: 20px 0 20px 0 !important;
+}
+
+
+div.articleContent p.noIndent {
+	text-indent: 0;
+}
+
+div.articleContent img {
+	margin: 10px;
+}
+
+div.articleContent img.center {
+	margin: auto; display: block;
+}
+
+div.articleContent img.right {
+	float: right;
+}
+
+div.articleContent img.left {
+	float: left;
+	height:420px;
+	width:350px;
+}
+.farsan a 
+{
+	color:GREEN;
+	text-decoration:none;
+}
+.farsan a:hover 
+{
+  COLOR:#D4A017;
+}
+
